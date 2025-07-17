@@ -1,0 +1,21 @@
+{
+  "name": "sdk-release",
+  "version": "1.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "standard-version",
+    "prepare": "husky install",
+    "build": "echo '📦 (Dummy) Building SDK...'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@commitlint/cli": "^17.6.6",
+    "@commitlint/config-conventional": "^17.6.6",
+    "husky": "^7.0.4",
+    "standard-version": "^9.5.0"
+  }
+}
