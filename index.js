@@ -1,4 +1,5 @@
 console.log('SDK loaded');
+console.log('new changes - 1');
 // fix init bug
 // refactor load
 //Testing git tags on git// another fix
